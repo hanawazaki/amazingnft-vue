@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+}
+
+#app {
+  background: #110929;
+}
+
+@layer components {
+  .btn-blue {
+    @apply text-white  bg-secMain rounded-full py-4 px-8 hover:bg-secHover;
+  }
+
+  .filter .active {
+    @apply bg-secMain;
+  }
+
+  .title-heading {
+    @apply font-bold text-[36px] xl:text-5xl leading-[48px] xl:leading-[58px] text-white mb-3 xl:mb-[30px];
+  }
+}
+
+.bg-banner {
+  background-image: url("./assets/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
