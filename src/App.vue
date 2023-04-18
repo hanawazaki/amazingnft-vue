@@ -5,7 +5,7 @@ import MarqueeText from "vue-marquee-text-component";
 
 <template>
   <header class="w-full mb-[55px]">
-    <div class="container mx-auto px-[24px] py-5">
+    <div class="mx-auto xl:px-[120px] lg:px-[60px] px-[24px] py-5">
       <div class="flex justify-between items-center">
         <div class="img-logo w-[154px] md:w-auto">
           <img src="./assets/Logo.svg" alt="logo" />
@@ -58,23 +58,25 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
     </div>
   </header>
-  <section class="hero w-full mb-[82px]">
-    <div class="container mx-auto px-[24px]">
-      <div class="flex">
-        <div class="w-7/12">
+  <section class="hero w-full mb-6 md:mb-[82px]">
+    <div class="mx-auto xl:px-[120px] lg:px-[60px] px-[24px]">
+      <div class="flex flex-col md:flex-row">
+        <div class="w-full md:w-7/12 mb-8">
           <h1
-            class="font-extrabold xl:text-[94px] text-white leading-[90px] tracking-[-2px] mb-8"
+            class="text-white font-extrabold text-[40px] leading-[40px] -tracking-[2px] xl:text-[79px] xl:leading-[75px] xxl:text-[94px] xxl:leading-[90px] mb-8"
           >
-            Create Your Own NFT Dream Gallery
+            Create Your <br />
+            Own NFT <br />
+            Dream Gallery
           </h1>
-          <div class="flex">
+          <div class="flex flex-col-reverse md:flex-row">
             <button
-              class="text-white bg-secMain rounded-full text-base py-47 px-10 hover:bg-secHover mr-[30px]"
+              class="text-white text-base w-full bg-secMain py-[14px] rounded-full md:h-[120px] md:w-[120px] md:rounded-[50%] hover:bg-secHover mr-[30px]"
             >
               Discover NFT
             </button>
             <p
-              class="font-normal text-base text-white leading-[26px] w-[394px]"
+              class="text-white font-normal text-sm leading-[24px] xl:text-base xl:leading-[26px] xxl:w-[394px] xl:w-[330px] mb-[32px] md:mb-0"
             >
               The largest NFT marketplace. Authentic and truly unique digital
               creation. Signed and issued by the creator,made possible by
@@ -82,11 +84,11 @@ import MarqueeText from "vue-marquee-text-component";
             </p>
           </div>
         </div>
-        <div class="w-5/12">
+        <div class="w-full md:w-5/12 mb-8 md:mb-0">
           <img src="./assets/Image-Hero.png" alt="img-hero" />
         </div>
       </div>
-      <div class="flex gap-[21px] mx-auto">
+      <div class="flex justify-between md:justify-normal gap-[21px] mx-auto">
         <div class="flex flex-col">
           <h6
             class="text-sm text-white font-normal leading-[16.94px] tracking-[-0.3px] mb-2"
@@ -120,51 +122,74 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
     </div>
   </section>
-  <section class="company-logo w-full mb-[120px]">
-    <div class="container px-[24px] mx-auto">
-      <div class="flex justify-between">
-        <img src="./assets/Logo-01.svg" alt="logo1" />
-        <img src="./assets/Logo-02.svg" alt="logo2" />
-        <img src="./assets/Logo-03.svg" alt="logo3" />
-        <img src="./assets/Logo-04.svg" alt="logo4" />
-        <img src="./assets/Logo-05.svg" alt="logo5" />
+  <section class="company-logo w-full mb-6 md:mb-[120px]">
+    <div class="xl:px-[120px] lg:px-[60px] px-[24px] mx-auto">
+      <div
+        class="w-full flex justify-center flex-wrap gap-3 md:justify-between md:flex-nowrap"
+      >
+        <img
+          src="./assets/Logo-01.svg"
+          alt="logo1"
+          class="w-[95px] md:w-auto"
+        />
+        <img
+          src="./assets/Logo-02.svg"
+          alt="logo2"
+          class="w-[95px] md:w-auto"
+        />
+        <img
+          src="./assets/Logo-03.svg"
+          alt="logo3"
+          class="w-[95px] md:w-auto"
+        />
+        <img
+          src="./assets/Logo-04.svg"
+          alt="logo4"
+          class="w-[95px] md:w-auto"
+        />
+        <img
+          src="./assets/Logo-05.svg"
+          alt="logo5"
+          class="w-[95px] md:w-auto"
+        />
       </div>
     </div>
   </section>
-  <section class="superhot w-full mb-[120px]">
-    <div class="container mx-auto px-[24px]">
+  <section class="superhot w-full mb-8 md:mb-[120px]">
+    <div class="xl:px-[120px] lg:px-[60px] mx-auto px-[24px]">
       <h2 class="title-heading">Super Hot Drop</h2>
-      <div class="filter flex gap-[13px] mb-8">
+
+      <div class="filter flex gap-[13px] mb-8 overflow-hidden">
         <button
-          class="text-white px-8 py-3 rounded-full bg-priPressed hover:bg-secMain active"
+          class="text-white px-8 py-2 md:py-3 rounded-full bg-priPressed hover:bg-secMain active"
         >
           Music
         </button>
         <button
-          class="text-white px-8 py-3 rounded-full bg-priPressed hover:bg-secMain"
+          class="text-white px-8 py-2 md:py-3 rounded-full bg-priPressed hover:bg-secMain"
         >
           Celebrities
         </button>
         <button
-          class="text-white px-8 py-3 rounded-full bg-priPressed hover:bg-secMain"
+          class="text-white px-8 py-2 md:py-3 rounded-full bg-priPressed hover:bg-secMain"
         >
           Sport
         </button>
         <button
-          class="text-white px-8 py-3 rounded-full bg-priPressed hover:bg-secMain"
+          class="text-white px-8 py-2 md:py-3 rounded-full bg-priPressed hover:bg-secMain"
         >
           Gaming
         </button>
         <button
-          class="text-white px-8 py-3 rounded-full bg-priPressed hover:bg-secMain"
+          class="text-white px-8 py-2 md:py-3 rounded-full bg-priPressed hover:bg-secMain"
         >
           Art
         </button>
       </div>
       <div
-        class="list-products grid grid-cols-1 md:grid-cols-4 gap-5 mb-[50px]"
+        class="list-products grid grid-cols-1 md:grid-cols-4 gap-5 mb-8 md:mb-[50px]"
       >
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -191,7 +216,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -218,7 +243,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -245,7 +270,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -272,7 +297,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -299,7 +324,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -326,7 +351,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -353,7 +378,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -386,20 +411,24 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
     </div>
   </section>
-  <section class="live-aucition mb-[120px]">
+  <section class="live-aucition mb-8 md:mb-[120px]">
     <marquee-text>
       <h1
-        class="text-[136px] font-extrabold leading-[146px] tracking-[-3px] text-secMain"
+        class="font-extrabold text-[88px] leading-[89px] -tracking-[1px] md:text-[136px] md:leading-[146px] md:tracking-[-3px] text-secMain"
       >
         LIVE AUCITION - LIVE AUCITION -&nbsp;
       </h1>
     </marquee-text>
   </section>
-  <section class="sell-nft w-full mb-[120px]">
-    <div class="container px-[24px] mx-auto">
-      <h2 class="title-heading mb-[30px]">Create Your Sell NFT</h2>
-      <div class="flex gap-[40px]">
-        <div class="card rounded-[10px] bg-[#1A0A47] p-5">
+  <section class="sell-nft w-full mb-8 md:mb-[120px]">
+    <div class="xl:px-[120px] lg:px-[60px] px-[24px] mx-auto">
+      <h2
+        class="font-bold text-[34px] leading-[44px] -tracking-[2%] xl:text-5xl xl:leading-[58px] text-white mb-3 xl:mb-[30px]"
+      >
+        Create Your Sell NFT
+      </h2>
+      <div class="flex flex-col md:flex-row gap-4 md:gap-[40px]">
+        <div class="card w-full rounded-[10px] bg-[#1A0A47] p-5">
           <img src="./assets/Wallet.svg" alt="wallet-icon" class="mb-5" />
           <div class="text-white">
             <h4 class="font-semibold text-2xl mb-1">Connect Wallet</h4>
@@ -409,7 +438,7 @@ import MarqueeText from "vue-marquee-text-component";
             </p>
           </div>
         </div>
-        <div class="card rounded-[10px] bg-[#1A0A47] p-5">
+        <div class="card w-full rounded-[10px] bg-[#1A0A47] p-5">
           <img src="./assets/Download.svg" alt="wallet-icon" class="mb-5" />
           <div class="text-white">
             <h4 class="font-semibold text-2xl mb-1">Collect NFT</h4>
@@ -419,7 +448,7 @@ import MarqueeText from "vue-marquee-text-component";
             </p>
           </div>
         </div>
-        <div class="card rounded-[10px] bg-[#1A0A47] p-5">
+        <div class="card w-full rounded-[10px] bg-[#1A0A47] p-5">
           <img src="./assets/Bag.svg" alt="wallet-icon" class="mb-5" />
           <div class="text-white">
             <h4 class="font-semibold text-2xl mb-1">NFT Marketplace</h4>
@@ -432,8 +461,8 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
     </div>
   </section>
-  <section class="top-creator w-full mb-[120px]">
-    <div class="container px-[24px] mx-auto">
+  <section class="top-creator w-full mb-8 md:mb-[120px]">
+    <div class="xl:px-[120px] lg:px-[60px] px-[24px] mx-auto">
       <h2 class="title-heading mb-[30px]">Creator of The Week</h2>
       <div class="grid grid-cols-1 xl:grid-cols-3 gap-[20px]">
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
@@ -443,10 +472,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -458,10 +489,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -473,10 +506,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -488,10 +523,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -503,10 +540,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -518,10 +557,12 @@ import MarqueeText from "vue-marquee-text-component";
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="text-2xl font-semibold -tracking-[2%]">
+            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
               Theophile Kpankon
             </h5>
-            <p class="text-base font-normal tracking-[-0.5px] leading-[26px]">
+            <p
+              class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
+            >
               1.34M
             </p>
           </div>
@@ -529,16 +570,19 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
     </div>
   </section>
-  <section class="banner w-full mb-[120px]">
-    <div class="container mx-auto">
+  <section class="banner w-full mb-8 md:mb-[120px]">
+    <div class="xl:px-[120px] lg:px-[60px] mx-auto">
       <div class="relative">
         <img
           src="./assets/banner.png"
           alt=""
-          class="w-full bg-secHover rounded-[10px] relative z-10"
+          class="hidden md:block w-full bg-secHover rounded-[10px] relative z-10"
         />
+        <div
+          class="block md:hidden w-full bg-secHover h-screen rounded-[10px] relative z-10"
+        ></div>
         <div class="text-center z-20 banner-text">
-          <h2 class="text-[50px] font-bold mb-[30px] text-white">
+          <h2 class="text-[32px] md:text-[50px] font-bold mb-[30px] text-white">
             Join Our Community
           </h2>
           <button
@@ -551,8 +595,10 @@ import MarqueeText from "vue-marquee-text-component";
     </div>
   </section>
   <footer class="w-full">
-    <div class="container mx-auto">
-      <div class="footer-up flex gap-[130px]">
+    <div class="xl:px-[120px] lg:px-[60px] px-[24px] mx-auto">
+      <div
+        class="footer-up flex flex-col md:flex-row gap-[20px] md:gap-[130px]"
+      >
         <div class="footer-logo">
           <div class="mb-6">
             <img
@@ -582,7 +628,9 @@ import MarqueeText from "vue-marquee-text-component";
             /></a>
           </div>
         </div>
-        <div class="footer-list text-white flex gap-[107px]">
+        <div
+          class="footer-list text-white flex flex-col md:flex-row gap-4 md:gap-[107px]"
+        >
           <div class="flex flex-col">
             <h4 class="text-lg font-semibold mb-6">Marketplace</h4>
             <ul>
@@ -645,7 +693,9 @@ import MarqueeText from "vue-marquee-text-component";
       </div>
       <hr class="outline outline-1 outline-white mt-[54px] mb-[40px]" />
       <div class="footer-down pb-[28px] text-center text-white">
-        <h5>© Design by Muhamad Fadli. All rights reserved.</h5>
+        <h5 class="text-[#A0A3A9] text-base font-normal">
+          © Design by Muhamad Fadli. All rights reserved.
+        </h5>
       </div>
     </div>
   </footer>

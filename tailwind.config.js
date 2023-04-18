@@ -11,6 +11,9 @@ export default {
         'secMain': '#1C51FE',
         'secHover': '#1336A9',
         'secPressed': '#0E297F'
+      },
+      screens: {
+        'xxl': '1440px',
       }
     },
   },
