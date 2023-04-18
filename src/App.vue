@@ -189,7 +189,7 @@ import MarqueeText from "vue-marquee-text-component";
       <div
         class="list-products grid grid-cols-1 md:grid-cols-4 gap-5 mb-8 md:mb-[50px]"
       >
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -216,7 +216,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -243,7 +243,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -270,7 +270,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -297,7 +297,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -324,7 +324,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -351,7 +351,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -378,7 +378,7 @@ import MarqueeText from "vue-marquee-text-component";
             </div>
           </a>
         </div>
-        <div class="card rounded-[10px] bg-white w-full md:w-[285px] p-3">
+        <div class="card rounded-[10px] bg-white w-full md:w-auto p-3">
           <a href="#">
             <img src="./assets/Monkey01.png" alt="product1" class="mx-auto" />
             <div class="flex justify-between my-[10px]">
@@ -468,11 +468,13 @@ import MarqueeText from "vue-marquee-text-component";
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
             src="./assets/creator/creator1.png"
-            alt="creator1"
+            alt="creator6"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
               Theophile Kpankon
             </h5>
             <p
@@ -484,86 +486,96 @@ import MarqueeText from "vue-marquee-text-component";
         </div>
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
-            src="./assets/creator/creator1.png"
-            alt="creator1"
+            src="./assets/creator/creator2.png"
+            alt="creator6"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
-              Theophile Kpankon
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
+              Fatma Dilek Sangur
             </h5>
             <p
               class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
             >
-              1.34M
+              589.2K
             </p>
           </div>
         </div>
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
-            src="./assets/creator/creator1.png"
-            alt="creator1"
+            src="./assets/creator/creator2.png"
+            alt="creator2"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
-              Theophile Kpankon
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
+              Fatma Dilek Sangur
             </h5>
             <p
               class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
             >
-              1.34M
+              589.2K
             </p>
           </div>
         </div>
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
-            src="./assets/creator/creator1.png"
-            alt="creator1"
+            src="./assets/creator/creator3.png"
+            alt="creator3"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
-              Theophile Kpankon
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
+              Oscar Kossou
             </h5>
             <p
               class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
             >
-              1.34M
+              362.K
             </p>
           </div>
         </div>
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
-            src="./assets/creator/creator1.png"
-            alt="creator1"
+            src="./assets/creator/creator6.png"
+            alt="creator6"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
-              Theophile Kpankon
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
+              Vincze Nikolett
             </h5>
             <p
               class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
             >
-              1.34M
+              2.4K
             </p>
           </div>
         </div>
         <div class="card rounded-[10px] bg-[#1A0A47] p-5 flex gap-5">
           <img
-            src="./assets/creator/creator1.png"
-            alt="creator1"
+            src="./assets/creator/creator4.png"
+            alt="creator4"
             class="w-[59px]"
           />
           <div class="text-white">
-            <h5 class="md:text-2xl font-semibold tracking-[-0.02em]">
-              Theophile Kpankon
+            <h5
+              class="md:text-base xxl:text-2xl font-semibold tracking-[-0.02em]"
+            >
+              Vincze Nikolett
             </h5>
             <p
               class="text-sm md:text-base font-normal tracking-[0.5px] leading-[24px] md:leading-[26px]"
             >
-              1.34M
+              2.4K
             </p>
           </div>
         </div>
