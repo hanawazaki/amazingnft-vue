@@ -63,7 +63,7 @@ import MarqueeText from "vue-marquee-text-component";
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-7/12 mb-8">
           <h1
-            class="text-white font-extrabold text-[40px] leading-[40px] -tracking-[2px] xl:text-[79px] xl:leading-[75px] xxl:text-[94px] xxl:leading-[90px] mb-8"
+            class="text-white font-extrabold text-[40px] leading-[40px] -tracking-[2px] lg:text-[65px] lg:leading-[65px] xl:text-[79px] xl:leading-[75px] xxl:text-[94px] xxl:leading-[90px] mb-8"
           >
             Create Your <br />
             Own NFT <br />
@@ -71,12 +71,12 @@ import MarqueeText from "vue-marquee-text-component";
           </h1>
           <div class="flex flex-col-reverse md:flex-row">
             <button
-              class="text-white text-base w-full bg-secMain py-[14px] rounded-full md:h-[120px] md:w-[120px] md:rounded-[50%] hover:bg-secHover mr-[30px]"
+              class="text-white text-base w-full bg-secMain py-[14px] lg:text-xs rounded-full lg:h-[60px] lg:w-[60px] xl:h-[120px] xl:w-[120px] md:rounded-[50%] hover:bg-secHover mr-[30px]"
             >
               Discover NFT
             </button>
             <p
-              class="text-white font-normal text-sm leading-[24px] xl:text-base xl:leading-[26px] xxl:w-[394px] xl:w-[330px] mb-[32px] md:mb-0"
+              class="text-white font-normal text-sm leading-[24px] lg:text-sm lg:leading-[20px] lg:w-[318px] xl:text-base xl:leading-[26px] xxl:w-[394px] xl:w-[330px] mb-[32px] md:mb-0"
             >
               The largest NFT marketplace. Authentic and truly unique digital
               creation. Signed and issued by the creator,made possible by
